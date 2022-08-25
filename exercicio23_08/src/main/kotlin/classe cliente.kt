@@ -2,7 +2,7 @@ class Cliente (
         var nome:String,
         var endereco:String,
         var telefone:String)
-    {private var listaDeCompras = mutableListOf<String>("")
+    {private var listaDeCompras = mutableListOf<String>()
 
         init {verificarNome()}
     fun adicionar(){
